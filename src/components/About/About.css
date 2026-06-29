@@ -1,0 +1,1164 @@
+.about-section {
+  --about-background: var(--page-surface-alt);
+  --about-card: var(--page-glass);
+  --about-card-strong: var(--page-card);
+  --about-text: var(--page-text);
+  --about-muted: var(--page-muted-text);
+  --about-soft-text: var(--page-soft-text);
+  --about-border: var(--page-border);
+  --about-shadow: var(--page-shadow);
+
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  overflow: hidden;
+  padding: 110px 6%;
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      rgba(123, 44, 191, 0.035) 45%,
+      transparent
+    ),
+    var(--about-background);
+
+  color: var(--about-text);
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Local scroll-reveal animations */
+
+.about-section.scroll-reveal,
+.about-section.scroll-reveal--visible {
+  opacity: 1;
+  transform: none;
+  filter: none;
+  animation: none !important;
+  will-change: auto;
+}
+
+.about-section.scroll-reveal .about-section__heading-copy,
+.about-section.scroll-reveal .about-section__introduction,
+.about-section.scroll-reveal .about-section__journey,
+.about-section.scroll-reveal .about-service-card,
+.about-section.scroll-reveal .about-section__route-point,
+.about-section.scroll-reveal .about-section__route-car,
+.about-section.scroll-reveal .about-section__journey-stat,
+.about-section.scroll-reveal .about-feature,
+.about-section.scroll-reveal .about-section__glow {
+  opacity: 0;
+}
+
+.about-section.scroll-reveal .about-section__route-progress {
+  scale: 0 1;
+  transform-origin: left center;
+}
+
+.about-section.scroll-reveal .about-section__route-car {
+  scale: 0.65;
+  animation: none;
+}
+
+.about-section.scroll-reveal--visible .about-section__heading-copy {
+  animation: aboutRevealFromLeft 0.9s cubic-bezier(0.22, 1, 0.36, 1)
+    0.05s both;
+}
+
+.about-section.scroll-reveal--visible .about-section__introduction {
+  animation: aboutRevealFromRight 0.9s cubic-bezier(0.22, 1, 0.36, 1)
+    0.15s both;
+}
+
+.about-section.scroll-reveal--visible .about-section__journey {
+  animation: aboutRevealFromLeft 1s cubic-bezier(0.22, 1, 0.36, 1)
+    0.24s both;
+}
+
+.about-section.scroll-reveal--visible
+  .about-service-card:nth-child(1) {
+  animation: aboutRevealFromRight 0.9s cubic-bezier(0.22, 1, 0.36, 1)
+    0.34s both;
+}
+
+.about-section.scroll-reveal--visible
+  .about-service-card:nth-child(2) {
+  animation: aboutRevealFromRight 0.9s cubic-bezier(0.22, 1, 0.36, 1)
+    0.46s both;
+}
+
+.about-section.scroll-reveal--visible .about-section__route-progress {
+  animation: aboutRouteDraw 1.2s cubic-bezier(0.22, 1, 0.36, 1)
+    0.52s both;
+}
+
+.about-section.scroll-reveal--visible
+  .about-section__route-point--pickup {
+  animation: aboutRevealFromLeft 0.72s cubic-bezier(0.22, 1, 0.36, 1)
+    0.62s both;
+}
+
+.about-section.scroll-reveal--visible
+  .about-section__route-point--destination {
+  animation: aboutRevealFromRight 0.72s cubic-bezier(0.22, 1, 0.36, 1)
+    0.76s both;
+}
+
+.about-section.scroll-reveal--visible .about-section__route-car {
+  animation:
+    aboutRouteCarReveal 0.72s cubic-bezier(0.22, 1, 0.36, 1) 0.86s both,
+    aboutCarFloat 3.2s ease-in-out 1.58s infinite;
+}
+
+.about-section.scroll-reveal--visible
+  .about-section__journey-stat:nth-child(1) {
+  animation: aboutRevealFromBottom 0.72s cubic-bezier(0.22, 1, 0.36, 1)
+    0.9s both;
+}
+
+.about-section.scroll-reveal--visible
+  .about-section__journey-stat:nth-child(2) {
+  animation: aboutRevealFromBottom 0.72s cubic-bezier(0.22, 1, 0.36, 1)
+    1.01s both;
+}
+
+.about-section.scroll-reveal--visible
+  .about-section__journey-stat:nth-child(3) {
+  animation: aboutRevealFromBottom 0.72s cubic-bezier(0.22, 1, 0.36, 1)
+    1.12s both;
+}
+
+.about-section.scroll-reveal--visible .about-feature:nth-child(1) {
+  animation: aboutRevealFromBottom 0.82s cubic-bezier(0.22, 1, 0.36, 1)
+    0.66s both;
+}
+
+.about-section.scroll-reveal--visible .about-feature:nth-child(2) {
+  animation: aboutRevealFromBottom 0.82s cubic-bezier(0.22, 1, 0.36, 1)
+    0.78s both;
+}
+
+.about-section.scroll-reveal--visible .about-feature:nth-child(3) {
+  animation: aboutRevealFromBottom 0.82s cubic-bezier(0.22, 1, 0.36, 1)
+    0.9s both;
+}
+
+.about-section.scroll-reveal--visible .about-section__glow--left {
+  animation: aboutGlowRevealLeft 1.45s ease 0.12s both;
+}
+
+.about-section.scroll-reveal--visible .about-section__glow--right {
+  animation: aboutGlowRevealRight 1.45s ease 0.22s both;
+}
+
+.about-section,
+.about-section * {
+  box-sizing: border-box;
+}
+
+.about-section__container {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.about-section__heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.75fr);
+  align-items: end;
+  gap: 80px;
+
+  margin-bottom: 62px;
+}
+
+.about-section__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  margin: 0 0 18px;
+
+  color: var(--rover-purple-bright);
+
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.about-section__eyebrow::before {
+  content: "";
+
+  width: 30px;
+  height: 2px;
+
+  border-radius: 999px;
+  background: var(--rover-purple-bright);
+
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.7);
+}
+
+.about-section__heading h2 {
+  margin: 0;
+
+  color: var(--about-text);
+
+  font-size: clamp(44px, 5vw, 72px);
+  font-weight: 850;
+  line-height: 1.05;
+  letter-spacing: -3px;
+
+  transition: color 0.3s ease;
+}
+
+.about-section__heading h2 span {
+  background: linear-gradient(
+    90deg,
+    var(--rover-purple),
+    var(--rover-purple-bright)
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-section__introduction {
+  max-width: 590px;
+  margin: 0;
+
+  color: var(--about-muted);
+
+  font-size: 17px;
+  line-height: 1.8;
+
+  transition: color 0.3s ease;
+}
+
+.about-section__main {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(360px, 0.75fr);
+  gap: 24px;
+}
+
+.about-section__journey {
+  position: relative;
+  min-height: 470px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 34px;
+
+  border: 1px solid var(--about-border);
+  border-radius: 26px;
+
+  background:
+    radial-gradient(
+      circle at 70% 45%,
+      rgba(123, 44, 191, 0.13),
+      transparent 38%
+    ),
+    var(--about-card);
+
+  box-shadow:
+    0 22px 60px var(--about-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(14px);
+
+  transition:
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.about-section__journey:hover {
+  border-color: rgba(168, 85, 247, 0.45);
+
+  box-shadow:
+    0 28px 70px var(--about-shadow),
+    0 0 34px rgba(123, 44, 191, 0.08);
+
+  transform: translateY(-4px);
+}
+
+.about-section__journey-top {
+  position: relative;
+  z-index: 3;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.about-section__journey-label {
+  color: var(--rover-purple-bright);
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.7px;
+}
+
+.about-section__journey-top h3 {
+  max-width: 490px;
+  margin: 10px 0 0;
+
+  color: var(--about-text);
+
+  font-size: clamp(26px, 3vw, 40px);
+  line-height: 1.15;
+  letter-spacing: -1.3px;
+}
+
+.about-section__live {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 9px 13px;
+
+  border: 1px solid var(--about-border);
+  border-radius: 999px;
+
+  background: var(--about-card-strong);
+  color: var(--about-soft-text);
+
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.about-section__live > span {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+  background: #39d98a;
+
+  box-shadow: 0 0 10px rgba(57, 217, 138, 0.8);
+
+  animation: aboutLivePulse 1.8s ease-in-out infinite;
+}
+
+.about-section__route {
+  position: relative;
+
+  flex: 1;
+  min-height: 230px;
+
+  margin: 35px 0 26px;
+}
+
+.about-section__route-line {
+  position: absolute;
+  top: 50%;
+  right: 11%;
+  left: 11%;
+
+  height: 3px;
+
+  border-radius: 999px;
+  background: var(--about-border);
+
+  transform: translateY(-50%);
+}
+
+.about-section__route-progress {
+  display: block;
+  width: 72%;
+  height: 100%;
+
+  border-radius: inherit;
+
+  background: linear-gradient(
+    90deg,
+    var(--rover-purple),
+    var(--rover-purple-bright)
+  );
+
+  box-shadow: 0 0 18px rgba(168, 85, 247, 0.45);
+}
+
+.about-section__route-point {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  transform: translateY(-50%);
+}
+
+.about-section__route-point--pickup {
+  left: 0;
+}
+
+.about-section__route-point--destination {
+  right: 0;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.about-section__route-marker {
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+
+  border: 1px solid rgba(168, 85, 247, 0.5);
+  border-radius: 50%;
+
+  background: var(--about-card-strong);
+  color: var(--rover-purple-bright);
+
+  box-shadow:
+    0 0 0 8px rgba(123, 44, 191, 0.07),
+    0 0 20px rgba(123, 44, 191, 0.18);
+}
+
+.about-section__route-marker > span {
+  width: 13px;
+  height: 13px;
+
+  border-radius: 50%;
+  background: var(--rover-purple-bright);
+
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.75);
+}
+
+.about-section__route-marker svg {
+  width: 22px;
+  height: 22px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.about-section__route-point small,
+.about-section__route-point strong {
+  display: block;
+}
+
+.about-section__route-point small {
+  color: var(--about-muted);
+  font-size: 10px;
+}
+
+.about-section__route-point strong {
+  margin-top: 3px;
+
+  color: var(--about-text);
+
+  font-size: 13px;
+}
+
+.about-section__route-car {
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  z-index: 3;
+
+  width: 56px;
+  height: 56px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid rgba(168, 85, 247, 0.55);
+  border-radius: 17px;
+
+  background: linear-gradient(
+    135deg,
+    var(--rover-purple),
+    var(--rover-purple-dark)
+  );
+
+  color: var(--on-purple);
+
+  box-shadow:
+    0 15px 28px rgba(79, 19, 112, 0.32),
+    0 0 25px rgba(168, 85, 247, 0.2);
+
+  transform: translate(-50%, -50%);
+  animation: aboutCarFloat 3.2s ease-in-out infinite;
+}
+
+.about-section__route-car svg {
+  width: 27px;
+  height: 27px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.about-section__journey-bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.about-section__journey-stat {
+  padding: 15px;
+
+  border: 1px solid var(--about-border);
+  border-radius: 15px;
+
+  background: var(--about-card-strong);
+}
+
+.about-section__journey-stat strong,
+.about-section__journey-stat span {
+  display: block;
+}
+
+.about-section__journey-stat strong {
+  color: var(--about-text);
+  font-size: 14px;
+}
+
+.about-section__journey-stat span {
+  margin-top: 4px;
+
+  color: var(--about-muted);
+
+  font-size: 10px;
+}
+
+.about-section__services {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.about-service-card {
+  position: relative;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 20px;
+
+  padding: 28px;
+
+  border: 1px solid var(--about-border);
+  border-radius: 23px;
+
+  background: var(--about-card);
+
+  box-shadow:
+    0 18px 46px var(--about-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+
+  transition:
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.about-service-card::before {
+  content: "";
+
+  position: absolute;
+  top: -90px;
+  right: -90px;
+
+  width: 180px;
+  height: 180px;
+
+  border-radius: 50%;
+  background: rgba(123, 44, 191, 0.12);
+
+  filter: blur(20px);
+
+  transition: transform 0.4s ease;
+}
+
+.about-service-card:hover {
+  border-color: rgba(168, 85, 247, 0.48);
+
+  box-shadow:
+    0 24px 56px var(--about-shadow),
+    0 0 28px rgba(123, 44, 191, 0.08);
+
+  transform: translateY(-4px);
+}
+
+.about-service-card:hover::before {
+  transform: scale(1.35);
+}
+
+.about-service-card__icon {
+  position: relative;
+  z-index: 2;
+
+  width: 58px;
+  height: 58px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid rgba(168, 85, 247, 0.28);
+  border-radius: 17px;
+
+  background: rgba(123, 44, 191, 0.13);
+  color: var(--rover-purple-bright);
+}
+
+.about-service-card__icon svg {
+  width: 27px;
+  height: 27px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.about-service-card__content {
+  position: relative;
+  z-index: 2;
+}
+
+.about-service-card__content > span {
+  color: var(--rover-purple-bright);
+
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.about-service-card h3 {
+  margin: 5px 0 8px;
+
+  color: var(--about-text);
+
+  font-size: 20px;
+}
+
+.about-service-card p {
+  margin: 0;
+
+  color: var(--about-muted);
+
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.about-service-card > a {
+  position: relative;
+  z-index: 2;
+
+  width: 42px;
+  height: 42px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid var(--about-border);
+  border-radius: 50%;
+
+  background: var(--about-card-strong);
+  color: var(--about-text);
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.about-service-card > a:hover {
+  border-color: var(--rover-purple-bright);
+  background: var(--rover-purple);
+  color: var(--on-purple);
+
+  transform: translateX(3px);
+}
+
+.about-service-card > a svg {
+  width: 18px;
+  height: 18px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.about-section__features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+
+  margin-top: 24px;
+}
+
+.about-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+
+  padding: 24px;
+
+  border: 1px solid var(--about-border);
+  border-radius: 19px;
+
+  background: var(--about-card);
+
+  transition:
+    border-color 0.25s ease,
+    background-color 0.3s ease,
+    transform 0.25s ease;
+}
+
+.about-feature:hover {
+  border-color: rgba(168, 85, 247, 0.4);
+  transform: translateY(-3px);
+}
+
+.about-feature__icon {
+  width: 43px;
+  height: 43px;
+
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+
+  border-radius: 13px;
+
+  background: rgba(123, 44, 191, 0.13);
+  color: var(--rover-purple-bright);
+}
+
+.about-feature__icon svg {
+  width: 21px;
+  height: 21px;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.about-feature h3 {
+  margin: 0 0 6px;
+
+  color: var(--about-text);
+
+  font-size: 16px;
+}
+
+.about-feature p {
+  margin: 0;
+
+  color: var(--about-muted);
+
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.about-section__glow {
+  position: absolute;
+  z-index: 0;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+  filter: blur(110px);
+}
+
+.about-section__glow--left {
+  bottom: -240px;
+  left: -180px;
+
+  width: 520px;
+  height: 520px;
+
+  background: rgba(123, 44, 191, 0.1);
+}
+
+.about-section__glow--right {
+  top: 50px;
+  right: -220px;
+
+  width: 520px;
+  height: 520px;
+
+  background: rgba(168, 85, 247, 0.08);
+}
+
+@keyframes aboutRevealFromLeft {
+  from {
+    opacity: 0;
+    translate: -58px 0;
+    filter: blur(8px);
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+    filter: blur(0);
+  }
+}
+
+@keyframes aboutRevealFromRight {
+  from {
+    opacity: 0;
+    translate: 58px 0;
+    filter: blur(8px);
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+    filter: blur(0);
+  }
+}
+
+@keyframes aboutRevealFromBottom {
+  from {
+    opacity: 0;
+    translate: 0 42px;
+    scale: 0.98;
+    filter: blur(6px);
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes aboutRouteDraw {
+  from {
+    opacity: 0.2;
+    scale: 0 1;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1 1;
+  }
+}
+
+@keyframes aboutRouteDrawVertical {
+  from {
+    opacity: 0.2;
+    scale: 1 0;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1 1;
+  }
+}
+
+@keyframes aboutRouteCarReveal {
+  from {
+    opacity: 0;
+    scale: 0.65;
+    filter: blur(7px);
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes aboutGlowRevealLeft {
+  from {
+    opacity: 0;
+    translate: -70px 40px;
+    scale: 0.8;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+  }
+}
+
+@keyframes aboutGlowRevealRight {
+  from {
+    opacity: 0;
+    translate: 70px -30px;
+    scale: 0.8;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+  }
+}
+
+@keyframes aboutLivePulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.55;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes aboutCarFloat {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) translateY(-7px);
+  }
+}
+
+:root[data-theme="light"] .about-section__journey,
+:root[data-theme="light"] .about-service-card,
+:root[data-theme="light"] .about-feature {
+  box-shadow:
+    0 18px 45px rgba(45, 28, 58, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+:root[data-theme="light"] .about-section__journey:hover,
+:root[data-theme="light"] .about-service-card:hover {
+  box-shadow:
+    0 25px 55px rgba(45, 28, 58, 0.12),
+    0 0 28px rgba(123, 44, 191, 0.07);
+}
+
+@media (max-width: 1100px) {
+  .about-section {
+    padding: 92px 5%;
+  }
+
+  .about-section__heading {
+    gap: 45px;
+  }
+
+  .about-section__main {
+    grid-template-columns: 1fr;
+  }
+
+  .about-section__services {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 820px) {
+  .about-section {
+    padding: 78px 32px;
+  }
+
+  .about-section__heading {
+    grid-template-columns: 1fr;
+    gap: 24px;
+
+    margin-bottom: 46px;
+  }
+
+  .about-section__introduction {
+    max-width: 680px;
+  }
+
+  .about-section__features {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .about-section {
+    padding: 68px 20px;
+  }
+
+  .about-section__heading h2 {
+    font-size: clamp(40px, 12vw, 56px);
+    letter-spacing: -2px;
+  }
+
+  .about-section__introduction {
+    font-size: 15px;
+  }
+
+  .about-section__journey {
+    min-height: 450px;
+    padding: 24px;
+  }
+
+  .about-section__journey-top {
+    flex-direction: column;
+  }
+
+  .about-section__route {
+    min-height: 215px;
+    margin-top: 26px;
+  }
+
+  .about-section__route-line {
+    top: 48px;
+    bottom: 48px;
+    left: 23px;
+
+    width: 3px;
+    height: auto;
+
+    transform: none;
+  }
+
+  .about-section__route-progress {
+    width: 100%;
+    height: 72%;
+  }
+
+  .about-section.scroll-reveal .about-section__route-progress {
+    scale: 1 0;
+    transform-origin: top center;
+  }
+
+  .about-section.scroll-reveal--visible
+    .about-section__route-progress {
+    animation-name: aboutRouteDrawVertical;
+  }
+
+  .about-section__route-point {
+    right: auto;
+    left: 0;
+
+    transform: none;
+  }
+
+  .about-section__route-point--pickup {
+    top: 0;
+  }
+
+  .about-section__route-point--destination {
+    top: auto;
+    bottom: 0;
+
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .about-section__route-car {
+    top: 48%;
+    left: 24px;
+
+    width: 48px;
+    height: 48px;
+  }
+
+  .about-section__journey-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .about-section__services {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 460px) {
+  .about-section {
+    padding: 58px 16px;
+  }
+
+  .about-section__eyebrow {
+    font-size: 10px;
+    letter-spacing: 1.4px;
+  }
+
+  .about-section__journey,
+  .about-service-card,
+  .about-feature {
+    border-radius: 17px;
+  }
+
+  .about-service-card {
+    grid-template-columns: auto 1fr;
+    padding: 22px;
+  }
+
+  .about-service-card > a {
+    display: none;
+  }
+
+  .about-service-card__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .about-feature {
+    padding: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-section.scroll-reveal .about-section__heading-copy,
+  .about-section.scroll-reveal .about-section__introduction,
+  .about-section.scroll-reveal .about-section__journey,
+  .about-section.scroll-reveal .about-service-card,
+  .about-section.scroll-reveal .about-section__route-point,
+  .about-section.scroll-reveal .about-section__route-car,
+  .about-section.scroll-reveal .about-section__journey-stat,
+  .about-section.scroll-reveal .about-feature,
+  .about-section.scroll-reveal .about-section__glow {
+    opacity: 1;
+    translate: none;
+    scale: 1;
+    filter: none;
+    animation: none !important;
+  }
+
+  .about-section.scroll-reveal .about-section__route-progress {
+    opacity: 1;
+    scale: 1 1;
+    animation: none !important;
+  }
+
+  .about-section__live > span,
+  .about-section__route-car {
+    animation: none;
+  }
+
+  .about-section__journey,
+  .about-service-card,
+  .about-feature,
+  .about-service-card > a {
+    transition: none;
+  }
+}

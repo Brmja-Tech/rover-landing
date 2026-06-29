@@ -1,0 +1,204 @@
+:root {
+  --page-background: #050505;
+  --page-surface: #000000;
+  --page-surface-alt: #0c0c10;
+
+  --page-text: #ffffff;
+  --page-muted-text: #b8b5c2;
+  --page-soft-text: #d7d4dd;
+
+  --page-border: #272330;
+  --page-input-background: #080b10;
+  --page-input-hover: #111111;
+
+  --page-glass: rgba(12, 12, 16, 0.85);
+  --page-glass-soft: rgba(12, 12, 16, 0.68);
+  --page-card: rgba(9, 9, 13, 0.88);
+
+  --page-shadow: rgba(0, 0, 0, 0.35);
+
+  --rover-purple: #7b2cbf;
+  --rover-purple-bright: #a855f7;
+  --rover-purple-dark: #4d146f;
+  --on-purple: #ffffff;
+
+  --font-sans:
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+
+  color-scheme: dark;
+
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color: var(--page-text);
+  background: var(--page-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root[data-theme="light"] {
+  --page-background: #f7f5fa;
+  --page-surface: #ffffff;
+  --page-surface-alt: #f2edf6;
+
+  --page-text: #111015;
+  --page-muted-text: #5f5868;
+  --page-soft-text: #3f3947;
+
+  --page-border: #ded6e7;
+  --page-input-background: #f5f1f8;
+  --page-input-hover: #ece5f1;
+
+  --page-glass: rgba(255, 255, 255, 0.88);
+  --page-glass-soft: rgba(255, 255, 255, 0.76);
+  --page-card: rgba(255, 255, 255, 0.92);
+
+  --page-shadow: rgba(38, 25, 48, 0.14);
+
+  color-scheme: light;
+}
+
+/* Language and document direction */
+
+:root[lang="en"] {
+  --font-sans:
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    sans-serif;
+}
+
+:root[lang="ar"] {
+  --font-sans:
+    Tahoma, "Segoe UI", Arial, system-ui, sans-serif;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+}
+
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  scroll-behavior: smooth;
+
+  background: var(--page-background);
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  direction: inherit;
+  text-align: start;
+
+  background: var(--page-background);
+  color: var(--page-text);
+
+  font-family: var(--font-sans);
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+
+  direction: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  direction: inherit;
+
+  color: inherit;
+
+  font: inherit;
+}
+
+input,
+textarea {
+  text-align: start;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+svg {
+  direction: ltr;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+/*
+  Use this class later for content that must always remain left-to-right,
+  such as email addresses, phone numbers, URLs and English application names.
+*/
+
+.content-ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: left;
+}
+
+/*
+  Use this class later for directional arrows that need to flip in Arabic.
+*/
+
+html[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* Respect reduced-motion accessibility settings */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

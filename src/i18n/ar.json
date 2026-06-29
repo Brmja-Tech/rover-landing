@@ -1,0 +1,255 @@
+{
+  "language": {
+    "arabic": "عربي",
+    "english": "English",
+    "switchToArabic": "التبديل إلى العربية",
+    "switchToEnglish": "التبديل إلى الإنجليزية"
+  },
+  "header": {
+    "home": "الصفحة الرئيسية لروفر",
+    "mainNavigation": "التنقل الرئيسي",
+    "mobileNavigation": "التنقل الرئيسي على الهاتف",
+    "about": "من نحن",
+    "features": "المميزات",
+    "security": "الأمان",
+    "contact": "تواصل معنا",
+    "startFree": "ابدأ مجانًا",
+    "switchToLightMode": "التبديل إلى الوضع الفاتح",
+    "switchToDarkMode": "التبديل إلى الوضع الداكن",
+    "openNavigationMenu": "فتح قائمة التنقل",
+    "closeNavigationMenu": "إغلاق قائمة التنقل"
+  },
+  "hero": {
+    "eyebrow": "الرحلات والتوصيل، كل ذلك في تطبيق واحد",
+    "titleLineOne": "تنقّل إلى أي مكان.",
+    "titleLineTwo": "أرسل أي شيء.",
+    "titleHighlight": "تحرّك مع روفر.",
+    "description": "اطلب رحلة موثوقة إلى وجهتك أو أرسل طردًا بسرعة وأمان. يجعل روفر كل رحلة بسيطة ومريحة وسهلة التتبع.",
+    "startJourney": "ابدأ رحلتك",
+    "seeHowItWorks": "اكتشف كيف يعمل",
+    "fastPickup": "استلام سريع",
+    "liveTracking": "تتبع مباشر",
+    "secureDelivery": "توصيل آمن",
+    "downloadOn": "حمّله من",
+    "appStore": "App Store",
+    "getItOn": "احصل عليه من",
+    "googlePlay": "Google Play",
+    "appStoreAriaLabel": "حمّل تطبيق روفر من متجر App Store",
+    "googlePlayAriaLabel": "احصل على تطبيق روفر من Google Play",
+    "phoneImageAlt": "تطبيق روفر على الهاتف يعرض شاشة اختيار السائق",
+    "driverNearby": "السائق قريب",
+    "twoMinutesAway": "يبعد دقيقتين",
+    "tripInProgress": "الرحلة قيد التنفيذ"
+  },
+  "about": {
+    "eyebrow": "لماذا روفر؟",
+    "titleLineOne": "تطبيق واحد.",
+    "titleHighlight": "طريقتان للتنقّل.",
+    "introduction": "يربطك روفر بالسائقين القريبين عندما تحتاج إلى رحلة أو ترغب في إرسال طرد. من تقديم الطلب وحتى الوصول، صُممت كل خطوة لتكون بسيطة وواضحة وموثوقة.",
+    "journeyLabel": "رحلتك",
+    "journeyTitle": "تنقّل خلال يومك بكل ثقة.",
+    "liveTracking": "تتبع مباشر",
+    "pickup": "نقطة الانطلاق",
+    "yourLocation": "موقعك",
+    "destination": "الوجهة",
+    "arrivingSafely": "الوصول بأمان",
+    "quick": "سريع",
+    "nearbyDrivers": "سائقون قريبون",
+    "visible": "واضح",
+    "realTimeProgress": "تقدم لحظي",
+    "simple": "بسيط",
+    "oneConvenientApp": "تطبيق واحد مريح",
+    "requestRideTitle": "اطلب رحلة",
+    "requestRideDescription": "اعثر على سائق قريب وانتقل براحة إلى الوجهة التي اخترتها.",
+    "requestRideAriaLabel": "اطلب رحلة باستخدام روفر",
+    "sendPackageTitle": "أرسل طردًا",
+    "sendPackageDescription": "رتّب توصيلًا سريعًا وموثوقًا للمستندات والطرود والأغراض اليومية.",
+    "sendPackageAriaLabel": "أرسل طردًا باستخدام روفر",
+    "trackEveryStepTitle": "تابع كل خطوة",
+    "trackEveryStepDescription": "تابع السائق أو الرحلة أو عملية التوصيل مباشرة من خلال التطبيق.",
+    "safetyTitle": "مصمم ليضع الأمان أولًا",
+    "safetyDescription": "تساعدك معلومات الرحلة الواضحة والخدمة الموثوقة على التنقّل بكل ثقة.",
+    "flexibleTitle": "مرن للاستخدام اليومي",
+    "flexibleDescription": "استخدم روفر للتنقّل الشخصي أو عمليات التوصيل المهمة أو لأي حاجة بينهما."
+  },
+  "features": {
+    "eyebrow": "مصمم لكل تنقّل",
+    "titleLineOne": "كل ما تحتاج إليه.",
+    "titleHighlight": "في تطبيق روفر واحد.",
+    "introduction": "سواء كنت تتنقّل عبر المدينة أو ترسل شيئًا مهمًا، يمنحك روفر الأدوات اللازمة لطلب الرحلات وإدارتها وتتبعها من مكان واحد.",
+    "services": {
+      "label": "خدمتان",
+      "title": "رحلة أو توصيل، متى احتجت إليهما.",
+      "description": "انتقل بسهولة بين طلب وسيلة نقل لنفسك وإرسال طرد دون مغادرة التطبيق.",
+      "serviceLabel": "الخدمة",
+      "requestRide": "اطلب رحلة",
+      "sendPackage": "أرسل طردًا"
+    },
+    "tracking": {
+      "label": "تقدم مباشر",
+      "title": "اعرف موقع السائق.",
+      "description": "شاهد المسار ووقت الوصول المتوقع وحالة الرحلة الحالية في الوقت الفعلي.",
+      "driverApproaching": "السائق يقترب",
+      "twoMinutesAway": "يبعد دقيقتين"
+    },
+    "cards": {
+      "clearPricing": {
+        "title": "أسعار واضحة",
+        "description": "شاهد التكلفة التقديرية قبل تأكيد طلبك مع معلومات دفع واضحة."
+      },
+      "fastMatching": {
+        "title": "العثور السريع على سائق",
+        "description": "يبحث روفر بسرعة عن سائق مناسب بالقرب منك للرحلة أو عملية التوصيل."
+      },
+      "safety": {
+        "title": "أمان مدمج",
+        "description": "تساعدك تفاصيل الرحلة ومعلومات السائق والتقدم المباشر على التنقّل بكل ثقة."
+      },
+      "flexibleDeliveries": {
+        "title": "توصيل مرن",
+        "description": "أرسل المستندات والطرود والأغراض اليومية دون الحاجة إلى ترتيب وسيلة نقل منفصلة."
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "كيف يعمل",
+      "titleLineOne": "من الطلب إلى الوصول",
+      "titleHighlight": "في أربع خطوات بسيطة.",
+      "introduction": "يجعل روفر العملية بأكملها واضحة. اختر ما تحتاج إليه، وأكد التفاصيل، ثم تابع الرحلة من البداية إلى النهاية."
+    },
+    "steps": {
+      "locations": {
+        "title": "حدد المواقع",
+        "description": "أدخل نقطة الانطلاق والوجهة الخاصة برحلتك أو طردك."
+      },
+      "service": {
+        "title": "اختر خدمتك",
+        "description": "اختر رحلة للركاب أو توصيل طرد ثم راجع التفاصيل."
+      },
+      "matching": {
+        "title": "احصل على سائق",
+        "description": "يعثر روفر على سائق قريب ويعرض معلوماته قبل الوصول."
+      },
+      "tracking": {
+        "title": "تابع كل خطوة",
+        "description": "تابع الرحلة مباشرة حتى تصل أنت أو يصل طردك إلى الوجهة."
+      }
+    },
+    "preview": {
+      "currentRequest": "الطلب الحالي",
+      "roverOnWay": "روفر في طريقه إليك",
+      "active": "نشط",
+      "yourDriver": "سائقك",
+      "driverMatched": "تم العثور على سائق",
+      "arrivingApproximately": "سيصل خلال دقيقتين تقريبًا",
+      "pickup": "نقطة الانطلاق",
+      "currentLocation": "موقعك الحالي",
+      "destination": "الوجهة",
+      "selectedDestination": "الوجهة المحددة",
+      "estimatedArrival": "الوصول المتوقع",
+      "twoMinutesShort": "دقيقتان",
+      "serviceType": "نوع الخدمة",
+      "roverRide": "رحلة روفر",
+      "tripStatus": "حالة الرحلة",
+      "confirmed": "مؤكدة",
+      "getStarted": "ابدأ مع روفر"
+    }
+  },
+  "security": {
+    "phoneImageAlt": "محادثة دعم العملاء داخل تطبيق روفر",
+    "phoneCards": {
+      "supportStatus": "حالة الدعم",
+      "teamReady": "الفريق جاهز للمساعدة",
+      "inAppAssistance": "مساعدة داخل التطبيق",
+      "startConversation": "ابدأ محادثة"
+    },
+    "eyebrow": "الأمان والدعم",
+    "titleLineOne": "اشعر بالحماية.",
+    "titleHighlight": "لن تكون وحدك في رحلتك.",
+    "introduction": "صُمم روفر لمساعدتك على الشعور بالاطمئنان والدعم خلال كل رحلة وعملية توصيل. تبقيك تفاصيل الرحلة الواضحة على دراية بما يحدث، بينما يظل فريق دعم روفر مستعدًا لمساعدتك إذا لم تسر الأمور كما هو متوقع.",
+    "assurance": {
+      "label": "مصمم لتعزيز ثقتك",
+      "title": "المساعدة قريبة دائمًا عندما تحتاج إليها.",
+      "description": "افتح صفحة الدعم داخل التطبيق، واشرح ما حدث، وتواصل مع فريق مستعد لإرشادك إلى الخطوة التالية."
+    },
+    "features": {
+      "visibleJourneys": {
+        "title": "رحلات واضحة",
+        "description": "اطلع على معلومات السائق والمسار والرحلة لتعرف دائمًا ما يحدث."
+      },
+      "protectedInformation": {
+        "title": "معلومات محمية",
+        "description": "صُمم روفر للتعامل مع معلومات حسابك وتفاصيل رحلتك بطريقة آمنة."
+      },
+      "supportWithinReach": {
+        "title": "الدعم في متناولك",
+        "description": "تواصل مباشرة مع فريق دعم روفر كلما احتجت إلى التوجيه أو المساعدة."
+      }
+    },
+    "supportBanner": {
+      "label": "دعم عملاء روفر",
+      "description": "فريق حقيقي مستعد للمساعدة عندما يحدث أي أمر.",
+      "available": "متاح"
+    },
+    "actions": {
+      "getRover": "احصل على روفر",
+      "seeHowItWorks": "اكتشف كيف يعمل روفر"
+    }
+  },
+  "signup": {
+    "eyebrow": "ابقَ على تواصل مع روفر",
+    "titleLineOne": "رحلتك القادمة",
+    "titleHighlight": "تبدأ من بريدك الإلكتروني.",
+    "introduction": "انضم إلى قائمة تحديثات روفر لتصلك الإعلانات المهمة والمميزات الجديدة وإطلاق الخدمات في مناطق جديدة وأخبار الرحلات والتوصيل المفيدة.",
+    "benefits": {
+      "serviceAreas": {
+        "title": "مناطق خدمة جديدة",
+        "description": "كن أول من يعرف عندما تصل خدمات روفر إلى موقع جديد."
+      },
+      "productUpdates": {
+        "title": "تحديثات المنتج",
+        "description": "اكتشف مميزات الرحلات والتوصيل الجديدة فور إطلاقها."
+      },
+      "safetyNews": {
+        "title": "أخبار الأمان",
+        "description": "احصل على معلومات مفيدة حول الأمان والدعم."
+      }
+    },
+    "floatingCards": {
+      "latestFeature": "أحدث المميزات",
+      "roverUpdates": "تحديثات روفر",
+      "notifications": "الإشعارات",
+      "stayInformed": "ابقَ على اطلاع"
+    },
+    "form": {
+      "newsletterLabel": "نشرة روفر الإخبارية",
+      "title": "احصل على أحدث أخبار روفر.",
+      "description": "تحديثات مفيدة فقط، دون رسائل غير ضرورية أو محتوى مزعج.",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "joinList": "انضم إلى القائمة",
+      "subscribed": "تم الاشتراك",
+      "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+      "successMessage": "أصبحت الآن ضمن قائمة تحديثات روفر.",
+      "privacy": "لن يُستخدم بريدك الإلكتروني إلا لإرسال أخبار روفر وتحديثاته.",
+      "community": "انضم إلى مجتمع روفر المتنامي."
+    }
+  },
+  "footer": {
+    "description": "يجعل روفر التنقّل أسهل من خلال مساعدة المستخدمين على طلب الرحلات وإرسال الطرود وتتبع رحلاتهم من منصة واحدة مريحة.",
+    "social": {
+      "website": "موقع روفر الإلكتروني",
+      "x": "روفر على منصة X",
+      "facebook": "روفر على فيسبوك",
+      "youtube": "روفر على يوتيوب"
+    },
+    "quickLinks": "روابط سريعة",
+    "navigationLabel": "روابط التنقل في التذييل",
+    "policies": "السياسات",
+    "privacyPolicy": "سياسة الخصوصية",
+    "contactInfo": "معلومات التواصل",
+    "copyrightPrefix": "© 2026",
+    "copyrightSuffix": ". جميع الحقوق محفوظة.",
+    "poweredBy": "بدعم من",
+    "visitBrmja": "زيارة BRMJA TECH"
+  }
+}

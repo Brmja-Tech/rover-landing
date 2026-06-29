@@ -1,0 +1,255 @@
+{
+  "language": {
+    "arabic": "عربي",
+    "english": "English",
+    "switchToArabic": "Switch to Arabic",
+    "switchToEnglish": "Switch to English"
+  },
+  "header": {
+    "home": "Rover home",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile main navigation",
+    "about": "About",
+    "features": "Features",
+    "security": "Security",
+    "contact": "Contact",
+    "startFree": "Start Free",
+    "switchToLightMode": "Switch to light mode",
+    "switchToDarkMode": "Switch to dark mode",
+    "openNavigationMenu": "Open navigation menu",
+    "closeNavigationMenu": "Close navigation menu"
+  },
+  "hero": {
+    "eyebrow": "RIDES AND DELIVERY, ALL IN ONE APP",
+    "titleLineOne": "Ride Anywhere.",
+    "titleLineTwo": "Send Anything.",
+    "titleHighlight": "Move With Rover.",
+    "description": "Request a reliable ride to your destination or send a package safely and quickly. Rover keeps every journey simple, convenient and easy to track.",
+    "startJourney": "Start Your Journey",
+    "seeHowItWorks": "See How It Works",
+    "fastPickup": "Fast pickup",
+    "liveTracking": "Live tracking",
+    "secureDelivery": "Secure delivery",
+    "downloadOn": "Download on the",
+    "appStore": "App Store",
+    "getItOn": "Get it on",
+    "googlePlay": "Google Play",
+    "appStoreAriaLabel": "Download Rover on the App Store",
+    "googlePlayAriaLabel": "Get Rover on Google Play",
+    "phoneImageAlt": "Rover mobile application showing the driver selection screen",
+    "driverNearby": "Driver nearby",
+    "twoMinutesAway": "2 minutes away",
+    "tripInProgress": "Trip in progress"
+  },
+  "about": {
+    "eyebrow": "WHY ROVER?",
+    "titleLineOne": "One application.",
+    "titleHighlight": "Two ways to move.",
+    "introduction": "Rover connects you with nearby drivers whenever you need a ride or want to send a package. From request to arrival, every step is designed to be simple, visible and reliable.",
+    "journeyLabel": "YOUR JOURNEY",
+    "journeyTitle": "Move through your day with confidence.",
+    "liveTracking": "Live tracking",
+    "pickup": "Pickup",
+    "yourLocation": "Your location",
+    "destination": "Destination",
+    "arrivingSafely": "Arriving safely",
+    "quick": "Quick",
+    "nearbyDrivers": "Nearby drivers",
+    "visible": "Visible",
+    "realTimeProgress": "Real-time progress",
+    "simple": "Simple",
+    "oneConvenientApp": "One convenient app",
+    "requestRideTitle": "Request a ride",
+    "requestRideDescription": "Find a nearby driver and travel comfortably to your chosen destination.",
+    "requestRideAriaLabel": "Request a ride with Rover",
+    "sendPackageTitle": "Send a package",
+    "sendPackageDescription": "Arrange fast and reliable delivery for documents, parcels and everyday items.",
+    "sendPackageAriaLabel": "Send a package with Rover",
+    "trackEveryStepTitle": "Track every step",
+    "trackEveryStepDescription": "Follow your driver, ride or delivery progress directly from the application.",
+    "safetyTitle": "Designed around safety",
+    "safetyDescription": "Clear trip information and dependable service help you move with confidence.",
+    "flexibleTitle": "Flexible for every day",
+    "flexibleDescription": "Use Rover for personal travel, important deliveries or anything in between."
+  },
+  "features": {
+    "eyebrow": "BUILT FOR EVERY MOVE",
+    "titleLineOne": "Everything you need.",
+    "titleHighlight": "One Rover application.",
+    "introduction": "Whether you are travelling across town or sending something important, Rover gives you the tools to request, manage and track everything from one place.",
+    "services": {
+      "label": "TWO SERVICES",
+      "title": "Ride or delivery, whenever you need it.",
+      "description": "Switch between requesting transport for yourself and sending a package without leaving the application.",
+      "serviceLabel": "Service",
+      "requestRide": "Request a ride",
+      "sendPackage": "Send a package"
+    },
+    "tracking": {
+      "label": "LIVE PROGRESS",
+      "title": "Know where your driver is.",
+      "description": "See the route, estimated arrival time and current journey status in real time.",
+      "driverApproaching": "Driver is approaching",
+      "twoMinutesAway": "2 minutes away"
+    },
+    "cards": {
+      "clearPricing": {
+        "title": "Clear pricing",
+        "description": "View an estimated fare before confirming your request, with clear payment information."
+      },
+      "fastMatching": {
+        "title": "Fast driver matching",
+        "description": "Rover quickly searches for a suitable nearby driver for your ride or delivery."
+      },
+      "safety": {
+        "title": "Safety built in",
+        "description": "Trip details, driver information and live progress help you move with confidence."
+      },
+      "flexibleDeliveries": {
+        "title": "Flexible deliveries",
+        "description": "Send documents, parcels and everyday items without arranging separate transport."
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "HOW IT WORKS",
+      "titleLineOne": "From request to arrival",
+      "titleHighlight": "in four simple steps.",
+      "introduction": "Rover keeps the entire process clear. Choose what you need, confirm the details and follow the journey from beginning to end."
+    },
+    "steps": {
+      "locations": {
+        "title": "Set your locations",
+        "description": "Enter the pickup point and destination for your ride or package."
+      },
+      "service": {
+        "title": "Choose your service",
+        "description": "Select a passenger ride or package delivery and review the details."
+      },
+      "matching": {
+        "title": "Get matched",
+        "description": "Rover finds a nearby driver and shows their information before arrival."
+      },
+      "tracking": {
+        "title": "Track every step",
+        "description": "Follow the journey live until you or your package reaches the destination."
+      }
+    },
+    "preview": {
+      "currentRequest": "CURRENT REQUEST",
+      "roverOnWay": "Your Rover is on the way",
+      "active": "Active",
+      "yourDriver": "Your driver",
+      "driverMatched": "Driver matched",
+      "arrivingApproximately": "Arriving in approximately 2 minutes",
+      "pickup": "Pickup",
+      "currentLocation": "Your current location",
+      "destination": "Destination",
+      "selectedDestination": "Selected destination",
+      "estimatedArrival": "Estimated arrival",
+      "twoMinutesShort": "2 min",
+      "serviceType": "Service type",
+      "roverRide": "Rover Ride",
+      "tripStatus": "Trip status",
+      "confirmed": "Confirmed",
+      "getStarted": "Get started with Rover"
+    }
+  },
+  "security": {
+    "phoneImageAlt": "Rover in-app customer support chat",
+    "phoneCards": {
+      "supportStatus": "Support status",
+      "teamReady": "Team ready to help",
+      "inAppAssistance": "In-app assistance",
+      "startConversation": "Start a conversation"
+    },
+    "eyebrow": "SECURITY AND SUPPORT",
+    "titleLineOne": "Feel protected.",
+    "titleHighlight": "Never travel alone.",
+    "introduction": "Rover is designed to help you feel informed and supported throughout every ride and delivery. Clear journey details keep you aware of what is happening, while the Rover support team remains ready to assist if something does not go as expected.",
+    "assurance": {
+      "label": "BUILT AROUND YOUR CONFIDENCE",
+      "title": "Help is always close when you need it.",
+      "description": "Open the in-app support page, explain what happened and connect with a team prepared to guide you through the next step."
+    },
+    "features": {
+      "visibleJourneys": {
+        "title": "Visible journeys",
+        "description": "View driver, route and trip information so you always know what is happening."
+      },
+      "protectedInformation": {
+        "title": "Protected information",
+        "description": "Rover is designed to keep your account and journey details handled securely."
+      },
+      "supportWithinReach": {
+        "title": "Support within reach",
+        "description": "Contact the Rover support team directly whenever you need guidance or assistance."
+      }
+    },
+    "supportBanner": {
+      "label": "ROVER CUSTOMER SUPPORT",
+      "description": "A real team, ready when something happens.",
+      "available": "Available"
+    },
+    "actions": {
+      "getRover": "Get Rover",
+      "seeHowItWorks": "See how Rover works"
+    }
+  },
+  "signup": {
+    "eyebrow": "STAY CONNECTED WITH ROVER",
+    "titleLineOne": "The next journey",
+    "titleHighlight": "starts in your inbox.",
+    "introduction": "Join the Rover updates list for important announcements, new features, service-area launches and useful ride and delivery news.",
+    "benefits": {
+      "serviceAreas": {
+        "title": "New service areas",
+        "description": "Be the first to know when Rover reaches a new location."
+      },
+      "productUpdates": {
+        "title": "Product updates",
+        "description": "Discover new ride and delivery features as they launch."
+      },
+      "safetyNews": {
+        "title": "Safety news",
+        "description": "Receive useful information about security and support."
+      }
+    },
+    "floatingCards": {
+      "latestFeature": "Latest feature",
+      "roverUpdates": "Rover updates",
+      "notifications": "Notifications",
+      "stayInformed": "Stay informed"
+    },
+    "form": {
+      "newsletterLabel": "ROVER NEWSLETTER",
+      "title": "Get the latest from Rover.",
+      "description": "Useful updates only. No unnecessary messages and no clutter.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "joinList": "Join the list",
+      "subscribed": "Subscribed",
+      "invalidEmail": "Please enter a valid email address.",
+      "successMessage": "You are now on the Rover updates list.",
+      "privacy": "Your email will only be used for Rover news and updates.",
+      "community": "Join the growing Rover community."
+    }
+  },
+  "footer": {
+    "description": "Rover makes transportation easier by helping users request rides, send packages and track their journeys from one convenient platform.",
+    "social": {
+      "website": "Rover website",
+      "x": "Rover on X",
+      "facebook": "Rover on Facebook",
+      "youtube": "Rover on YouTube"
+    },
+    "quickLinks": "Quick Links",
+    "navigationLabel": "Footer navigation",
+    "policies": "Policies",
+    "privacyPolicy": "Privacy Policy",
+    "contactInfo": "Contact Info",
+    "copyrightPrefix": "© 2026",
+    "copyrightSuffix": ". All rights reserved.",
+    "poweredBy": "Powered by",
+    "visitBrmja": "Visit BRMJA TECH"
+  }
+}
