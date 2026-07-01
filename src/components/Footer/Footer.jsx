@@ -83,24 +83,24 @@ function Footer() {
           <h2>{t("footer.contactInfo")}</h2>
 
           <div className="footer__contact-list">
-            <a href="tel:+123456789">
+            <a href="tel:+201515547330">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M6.5 3.5 9 3l2 5-2.5 1.5a15.5 15.5 0 0 0 6 6L16 13l5 2 .5 2.5a3 3 0 0 1-3 3C10.2 20.5 3.5 13.8 3.5 5.5a3 3 0 0 1 3-2Z" />
               </svg>
 
               <span className="content-ltr" dir="ltr">
-                +123456789
+                +201515547330
               </span>
             </a>
 
-            <a href="mailto:info@mywebsite.com">
+            <a href="mailto:roverteameg7@gmail.com">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <rect x="3" y="5" width="18" height="14" rx="2" />
                 <path d="m4 7 8 6 8-6" />
               </svg>
 
               <span className="content-ltr" dir="ltr">
-                info@mywebsite.com
+                roverteameg7@gmail.com
               </span>
             </a>
           </div>
