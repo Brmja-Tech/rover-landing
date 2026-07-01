@@ -20,16 +20,16 @@
     "closeNavigationMenu": "Close navigation menu"
   },
   "hero": {
-    "eyebrow": "RIDES AND DELIVERY, ALL IN ONE APP",
-    "titleLineOne": "Ride Anywhere.",
-    "titleLineTwo": "Send Anything.",
+    "eyebrow": "TRIPS AND PREPAID PAYMENT COURIER, ALL IN ONE APP",
+    "titleLineOne": "Book Your Trip.",
+    "titleLineTwo": "Deliver Prepaid Orders.",
     "titleHighlight": "Move With Rover.",
-    "description": "Request a reliable ride to your destination or send a package safely and quickly. Rover keeps every journey simple, convenient and easy to track.",
-    "startJourney": "Start Your Journey",
+    "description": "Book a reliable trip or use Prepaid Payment Courier for customer orders that have already been paid for. Built for merchants and business owners, Rover makes pickup, live tracking and delivery confirmation simple.",
+    "startJourney": "Get Started",
     "seeHowItWorks": "See How It Works",
-    "fastPickup": "Fast pickup",
+    "fastPickup": "Fast matching",
     "liveTracking": "Live tracking",
-    "secureDelivery": "Secure delivery",
+    "secureDelivery": "Delivery confirmation",
     "downloadOn": "Download on the",
     "appStore": "App Store",
     "getItOn": "Get it on",
@@ -45,7 +45,7 @@
     "eyebrow": "WHY ROVER?",
     "titleLineOne": "One application.",
     "titleHighlight": "Two ways to move.",
-    "introduction": "Rover connects you with nearby drivers whenever you need a ride or want to send a package. From request to arrival, every step is designed to be simple, visible and reliable.",
+    "introduction": "Rover supports everyday passenger trips and prepaid-order delivery for merchants and business owners. From requesting a driver or courier to tracking the journey and confirming arrival, every step is designed to be simple, visible and reliable.",
     "journeyLabel": "YOUR JOURNEY",
     "journeyTitle": "Move through your day with confidence.",
     "liveTracking": "Live tracking",
@@ -59,97 +59,97 @@
     "realTimeProgress": "Real-time progress",
     "simple": "Simple",
     "oneConvenientApp": "One convenient app",
-    "requestRideTitle": "Request a ride",
-    "requestRideDescription": "Find a nearby driver and travel comfortably to your chosen destination.",
-    "requestRideAriaLabel": "Request a ride with Rover",
-    "sendPackageTitle": "Send a package",
-    "sendPackageDescription": "Arrange fast and reliable delivery for documents, parcels and everyday items.",
-    "sendPackageAriaLabel": "Send a package with Rover",
+    "requestRideTitle": "Book a trip",
+    "requestRideDescription": "Find a nearby driver and travel comfortably to your selected destination.",
+    "requestRideAriaLabel": "Book a trip with Rover",
+    "sendPackageTitle": "Prepaid Payment Courier",
+    "sendPackageDescription": "Arrange delivery for customer orders that have already been paid for, without managing cash collection during delivery.",
+    "sendPackageAriaLabel": "Arrange a Prepaid Payment Courier delivery with Rover",
     "trackEveryStepTitle": "Track every step",
-    "trackEveryStepDescription": "Follow your driver, ride or delivery progress directly from the application.",
+    "trackEveryStepDescription": "Follow your driver, trip or prepaid courier delivery directly from the application.",
     "safetyTitle": "Designed around safety",
-    "safetyDescription": "Clear trip information and dependable service help you move with confidence.",
-    "flexibleTitle": "Flexible for every day",
-    "flexibleDescription": "Use Rover for personal travel, important deliveries or anything in between."
+    "safetyDescription": "Clear trip and delivery information, live progress and dependable support help you move with confidence.",
+    "flexibleTitle": "Built for everyday needs",
+    "flexibleDescription": "Use Rover for personal trips or to deliver prepaid customer orders for your business."
   },
   "features": {
     "eyebrow": "BUILT FOR EVERY MOVE",
     "titleLineOne": "Everything you need.",
-    "titleHighlight": "One Rover application.",
-    "introduction": "Whether you are travelling across town or sending something important, Rover gives you the tools to request, manage and track everything from one place.",
+    "titleHighlight": "Two services in one app.",
+    "introduction": "Whether you are booking a passenger trip or using Prepaid Payment Courier for a customer order, Rover gives you the tools to request, manage and track everything from one place.",
     "services": {
       "label": "TWO SERVICES",
-      "title": "Ride or delivery, whenever you need it.",
-      "description": "Switch between requesting transport for yourself and sending a package without leaving the application.",
+      "title": "Trips or Prepaid Payment Courier, whenever you need it.",
+      "description": "Choose passenger transportation for yourself or arrange prepaid-order delivery for your business from the same Rover application.",
       "serviceLabel": "Service",
-      "requestRide": "Request a ride",
-      "sendPackage": "Send a package"
+      "requestRide": "Trips",
+      "sendPackage": "Prepaid Payment Courier"
     },
     "tracking": {
       "label": "LIVE PROGRESS",
-      "title": "Know where your driver is.",
-      "description": "See the route, estimated arrival time and current journey status in real time.",
+      "title": "Know where your driver or courier is.",
+      "description": "See the route, estimated arrival time and current trip or delivery status in real time.",
       "driverApproaching": "Driver is approaching",
       "twoMinutesAway": "2 minutes away"
     },
     "cards": {
       "clearPricing": {
         "title": "Clear pricing",
-        "description": "View an estimated fare before confirming your request, with clear payment information."
+        "description": "Review estimated trip fares or courier delivery pricing before confirming your request."
       },
       "fastMatching": {
-        "title": "Fast driver matching",
-        "description": "Rover quickly searches for a suitable nearby driver for your ride or delivery."
+        "title": "Fast driver and courier matching",
+        "description": "Rover quickly searches for a suitable nearby driver for your trip or prepaid delivery."
       },
       "safety": {
-        "title": "Safety built in",
-        "description": "Trip details, driver information and live progress help you move with confidence."
+        "title": "Safety and visibility built in",
+        "description": "Driver or courier details, route information and live progress help you stay informed."
       },
       "flexibleDeliveries": {
-        "title": "Flexible deliveries",
-        "description": "Send documents, parcels and everyday items without arranging separate transport."
+        "title": "Built for prepaid business orders",
+        "description": "Designed for merchants, online sellers and business owners delivering customer orders that have already been paid for."
       }
     },
     "howItWorks": {
       "eyebrow": "HOW IT WORKS",
       "titleLineOne": "From request to arrival",
       "titleHighlight": "in four simple steps.",
-      "introduction": "Rover keeps the entire process clear. Choose what you need, confirm the details and follow the journey from beginning to end."
+      "introduction": "Choose Trips or Prepaid Payment Courier, confirm the details, get matched with a nearby driver or courier and follow the journey from beginning to end."
     },
     "steps": {
       "locations": {
         "title": "Set your locations",
-        "description": "Enter the pickup point and destination for your ride or package."
+        "description": "Add the trip pickup and destination, or your business pickup location and the customer's delivery address."
       },
       "service": {
         "title": "Choose your service",
-        "description": "Select a passenger ride or package delivery and review the details."
+        "description": "Select Trips for passenger transport or Prepaid Payment Courier for an order that has already been paid for."
       },
       "matching": {
         "title": "Get matched",
-        "description": "Rover finds a nearby driver and shows their information before arrival."
+        "description": "Rover finds a nearby driver or courier and shows their information before pickup."
       },
       "tracking": {
         "title": "Track every step",
-        "description": "Follow the journey live until you or your package reaches the destination."
+        "description": "Follow the trip or prepaid order live until the passenger or order reaches the destination."
       }
     },
     "preview": {
-      "currentRequest": "CURRENT REQUEST",
-      "roverOnWay": "Your Rover is on the way",
+      "currentRequest": "CURRENT COURIER REQUEST",
+      "roverOnWay": "Your Rover courier is on the way",
       "active": "Active",
-      "yourDriver": "Your driver",
-      "driverMatched": "Driver matched",
-      "arrivingApproximately": "Arriving in approximately 2 minutes",
+      "yourDriver": "Your courier",
+      "driverMatched": "Courier matched",
+      "arrivingApproximately": "Arriving for pickup in approximately 2 minutes",
       "pickup": "Pickup",
-      "currentLocation": "Your current location",
+      "currentLocation": "Merchant pickup location",
       "destination": "Destination",
-      "selectedDestination": "Selected destination",
-      "estimatedArrival": "Estimated arrival",
+      "selectedDestination": "Customer delivery address",
+      "estimatedArrival": "Estimated pickup",
       "twoMinutesShort": "2 min",
       "serviceType": "Service type",
-      "roverRide": "Rover Ride",
-      "tripStatus": "Trip status",
+      "roverRide": "Prepaid Payment Courier",
+      "tripStatus": "Delivery status",
       "confirmed": "Confirmed",
       "getStarted": "Get started with Rover"
     }
@@ -165,7 +165,7 @@
     "eyebrow": "SECURITY AND SUPPORT",
     "titleLineOne": "Feel protected.",
     "titleHighlight": "Never travel alone.",
-    "introduction": "Rover is designed to help you feel informed and supported throughout every ride and delivery. Clear journey details keep you aware of what is happening, while the Rover support team remains ready to assist if something does not go as expected.",
+    "introduction": "Rover helps passengers, merchants and business owners stay informed throughout every trip and prepaid courier delivery. Clear driver, courier and journey details keep you aware of what is happening, while the Rover support team remains ready to assist.",
     "assurance": {
       "label": "BUILT AROUND YOUR CONFIDENCE",
       "title": "Help is always close when you need it.",
@@ -173,16 +173,16 @@
     },
     "features": {
       "visibleJourneys": {
-        "title": "Visible journeys",
-        "description": "View driver, route and trip information so you always know what is happening."
+        "title": "Visible trips and deliveries",
+        "description": "View driver or courier, route and journey information so you always know what is happening."
       },
       "protectedInformation": {
         "title": "Protected information",
-        "description": "Rover is designed to keep your account and journey details handled securely."
+        "description": "Rover is designed to keep your account, trip and delivery details handled securely."
       },
       "supportWithinReach": {
         "title": "Support within reach",
-        "description": "Contact the Rover support team directly whenever you need guidance or assistance."
+        "description": "Contact the Rover support team directly whenever you need help with a trip or prepaid courier delivery."
       }
     },
     "supportBanner": {
@@ -199,19 +199,19 @@
     "eyebrow": "STAY CONNECTED WITH ROVER",
     "titleLineOne": "The next journey",
     "titleHighlight": "starts in your inbox.",
-    "introduction": "Join the Rover updates list for important announcements, new features, service-area launches and useful ride and delivery news.",
+    "introduction": "Join the Rover updates list for important announcements, new features, service-area launches and useful news about Trips and Prepaid Payment Courier.",
     "benefits": {
       "serviceAreas": {
         "title": "New service areas",
-        "description": "Be the first to know when Rover reaches a new location."
+        "description": "Be the first to know when Rover Trips or Prepaid Payment Courier reaches a new location."
       },
       "productUpdates": {
         "title": "Product updates",
-        "description": "Discover new ride and delivery features as they launch."
+        "description": "Discover new trip and merchant courier features as they launch."
       },
       "safetyNews": {
-        "title": "Safety news",
-        "description": "Receive useful information about security and support."
+        "title": "Safety and support news",
+        "description": "Receive useful information for passengers, merchants and business owners."
       }
     },
     "floatingCards": {
@@ -235,7 +235,7 @@
     }
   },
   "footer": {
-    "description": "Rover makes transportation easier by helping users request rides, send packages and track their journeys from one convenient platform.",
+    "description": "Rover makes transportation and business delivery easier by helping users book trips while enabling merchants and business owners to deliver prepaid customer orders from one convenient platform.",
     "social": {
       "website": "Rover website",
       "x": "Rover on X",
